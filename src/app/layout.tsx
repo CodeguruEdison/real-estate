@@ -36,7 +36,7 @@ export default function RootLayout({
         <body
           className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         >
-          <header className="flex h-16 items-center justify-end gap-4 p-4">
+          {/* <header className="flex h-16 items-center justify-end gap-4 p-4">
             <SignedOut>
               <SignInButton />
               <SignUpButton>
@@ -51,7 +51,7 @@ export default function RootLayout({
             <SignedIn>
               <UserButton />
             </SignedIn>
-          </header>
+          </header> */}
           {children}
         </body>
       </html>
